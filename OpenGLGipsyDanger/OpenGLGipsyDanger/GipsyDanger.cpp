@@ -602,7 +602,7 @@ bool initPixelFormat(HDC hdc)
 
 GLuint LoadBMP(char* fileName) {
 	//glColor3f(1.0f, 1.0f, 1.0f);
-	glPixelStorei(GL_UNPACK_ALIGNMENT, 4);
+	glPixelStorei(GL_UNPACK_ALIGNMENT, 5);
 	hBMP = (HBITMAP)LoadImage(GetModuleHandle(NULL), fileName, IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADFROMFILE);
 	GetObject(hBMP, sizeof(BMP), &BMP);
 
@@ -620,7 +620,7 @@ GLuint LoadBMP(char* fileName) {
 }
 
 GLuint LoadBMPForReactor(char* fileName) {
-	glColor3f(1.0f, 1.0f, 1.0f);
+	glColor3f(1.2f, 1.1f, 1.3f);
 	glPixelStorei(GL_UNPACK_ALIGNMENT, 4);
 	hBMP = (HBITMAP)LoadImage(GetModuleHandle(NULL), fileName, IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADFROMFILE);
 	GetObject(hBMP, sizeof(BMP), &BMP);
@@ -640,7 +640,7 @@ GLuint LoadBMPForReactor(char* fileName) {
 
 
 void restoreAngles() {
-	upArmAngle1ForLeft = 0.0f;
+	upArmAngle1ForLeft = 0.1f;
 	downArmAngle1ForLeft = 0.0f;
 	rightArmAngle1ForLeft = 0.0f;
 	leftArmAngle1ForLeft = 0.0f;
@@ -695,7 +695,7 @@ void restoreAngles() {
 	rightLegAngle2ForRight = 0.0f;
 	leftLegAngle2ForRight = 0.0f;
 	upLegAngle3ForRight = 0.0f;
-	downLegAngle3ForRight = 0.0f;
+	downLegAngle3ForRight = 0.1f;
 	rightLegAngle3ForRight = 0.0f;
 	leftLegAngle3ForRight = 0.0f;
 	upFingerAngle1ForRight = 0.0f;
@@ -922,8 +922,8 @@ void drawRobotArm() {
 
 void drawSphere() {
 	glBegin(GL_POLYGON); {
-		float radius = 0.2f;
-		for (float angle = 0; angle < 2.0 * 3.1415926f; angle += 0.01) {
+		float radius = 0.4f;
+		for (float angle = 0; angle < 2.0 * 3.1415926f; angle += 0.02) {
 			glVertex3f((radius*cos(angle)), (radius*sin(angle)), 0);
 		}
 	}
