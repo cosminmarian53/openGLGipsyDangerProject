@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OpenGLGipsyDanger"
+    "\\OpenGLGipsyDanger",
+    "\\OpenGLGipsyDanger\\OpenGLGipsyDanger",
+    "\\OpenGLGipsyDanger\\Release",
+    "\\OpenGLGipsyDanger\\Release\\textures"
   ],
   "SelectedNode": "\\OpenGLGipsyDanger\\OpenGLGipsyDanger.sln",
   "PreviewInSolutionExplorer": false
