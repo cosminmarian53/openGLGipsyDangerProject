@@ -1,59 +1,59 @@
-# openGLGipsyDanger
-This is a project using basic OpenGL library to draw/code out the movie Pacific Rim's protagonist jaeger - Gipsy Danger
+# freeGLUT-GipsyDanger
+Acest proiect foloseste libraria freeGLUT pentru a modela protagonistul filmului ,,Pacific Rim", Jaeger - Gipsy Danger
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/MouseControl.gif)
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/Walking.gif)
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/ChainSword.gif)
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/PlasmaCannon.gif)
 
-# How to run
-If you don't need the code, just unzip the Exe_package.zip and make sure that textures folder and OpenGLGipsyDanger.exe 
-are put under the same folder/directory. Then, you can just run the OpenGLGipsyDanger.exe.
+# Instalare și Rulare
+Pentru a rula programul, urmați acești pași simpli:
+1. Deschideți "OpenGLGipsyDanger.sln"
+2. Da-ți debug
 
-# User Manual
-*You can refer to the GipsyDangerUserManual.txt or below:
+# Manual de Utilizare
 
-For camera viewport,
-Use mouse's left click to control camera angle, use scroll wheel to zoom in or out
+## Controlul Camerei:
+Clic stânga al mouse-ului pentru a controla unghiul camerei.
+Rotița mouse-ului pentru zoom.
 
-For environment,
-Press 4 for changing day light or night time
-Press 1,2,3 to switch on/off ambient/diffuse/specular
-Press 0 for putting robot in scene 1 - tower bridge
+## Mediul Înconjurător:
 
-For general setting,
-Press G for enable/disable lighting
-Press T for enable/disable texture
+Apăsați 4 pentru a schimba între zi și noapte.
+Apăsați 1, 2, 3 pentru a comuta lumina ambientală/difuză/speculară.
+Apăsați 0 pentru a plasa robotul în scena Tower Bridge.
 
-For movement,
-Press Q for walking, Press E for gliding/flying,  
-Press W, A, S, D for changing moving direction
-Press Page up/Page down for moving fingers
-Press space to restore position
+## Setări Generale:
 
-For weapon,
-Press F/R to switch on left/right hand
-Press X for sword, Press Z for stregthen sword
-Press C for plasma cannon, Press V for shooting 
+Apăsați G pentru a activa/dezactiva iluminarea.
+Apăsați T pentru a activa/dezactiva texturile.
 
-*Long press X for sword deploy/retract animation
-*Long press Z for sword strengthening/release animation
-*Long press C for plasma charging/enlarging animation
+## Mișcarea:
 
-For customization (changing texture)
-Press Y for changing the armor texture (total 6 types)
-Press H for changing body structure textue (total 3 types)
+Apăsați Q pentru mers, E pentru planare.
+Folosiți W, A, S, D pentru direcție.
+Page Up/Page Down pentru mișcarea degetelor.
+Spațiu pentru a reveni la poziția inițială.
 
-For interactive features (moving freedom posture mode)
-Press B for activating hand, Press N for activating leg, Press M for activating finger or head/body
-Press 1 for activating toggle 1 (e.g. if hand activated, then it is shoulder)
-Press 2 for activating toggle 2 (e.g. if hand activated, then it is elbow)
-Press 3 for activating toggle 3 (e.g. if hand activated, then it is wrist)
-Press 4 for activating toggle 4 (e.g. if finger activated, then it is ring finger or head if you move left/right)
-Press 5 for activating toggle 5 (e.g. if finger activated, then it is small finger or body if you move left/right)
-Press arrow up/down/left/right to control angle
-Press Space Bar to restore everything
+## Armament:
 
-# Screenshots of the OpenGL Gipsy Danger
+F/R pentru a comuta între mâinile stânga/dreapta.
+X pentru sabie, Z pentru întărirea sabiei.
+C pentru tunul cu plasmă, V pentru tragere.
+
+## Personalizare:
+
+Apăsați Y pentru a schimba textura armurii (6 tipuri).
+Apăsați H pentru a schimba textura corpului (3 tipuri).
+
+## Caracteristici Interactive:
+
+B, N, M pentru a activa mâna, piciorul sau degetele/capul.
+1-5 pentru diferite comutatoare de mișcare.
+Folosiți săgețile pentru controlul unghiului.
+Space pentru a restaura setările.
+
+# Capturi de Ecran
+Vedeți capturile de ecran ale proiectului pentru a vă face o idee despre aspectul și funcționalitățile lui Gipsy Danger.
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/01_OpenGLGipsyDangerFront.png)
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/02_OpenGLGipsyDangerBack.png)
 ![](https://github.com/wushuartgaro/openGLGipsyDanger/blob/master/Screenshots/03_OpenGLGipsyDangerSide.png)
